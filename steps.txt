@@ -1,0 +1,4 @@
+-laravel new eapi
+or 
+-composer create-project --prefer-dist laravel/laravel AwesomeProject
+-composer create-project laravel/laravel=5.7 your-project-name --prefer-dist
