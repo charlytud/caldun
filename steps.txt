@@ -1,4 +1,36 @@
+git 
+-current branch: git symbolic-ref HEAD
+-undo a commit: git reset --soft HEAD^
+-remove a file from stage: 
+-git reset HEAD -- <directoryName>
+
 -laravel new eapi
 or 
 -composer create-project --prefer-dist laravel/laravel AwesomeProject
 -composer create-project laravel/laravel=5.7 your-project-name --prefer-dist
+
++Note Model relationship
++Remove a migration in 2steps
+-delete database/migrations/my_migration_file_name.php
+-php artisan make:migration create_users_table 
+-php artisan migrate:refresh
+
++faker
+-create faker
+-set seeder 
+-php artisan db:seed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
