@@ -3,6 +3,8 @@ git
 -undo a commit: git reset --soft HEAD^
 -remove a file from stage: 
 -git reset HEAD -- <directoryName>
+-git checkout master
+-git merge branchname
 
 -laravel new eapi
 or 
@@ -19,6 +21,22 @@ or
 -create faker
 -set seeder 
 -php artisan db:seed
+
++Model relationships
+-here model Product is set to have many review
+-review is set to belong to a Product
++Tinker
+php artisan tinker
+note: tinker helps you run cmd on your app good for checking functionalities
+
+Find Justin Hileman
+
++Resource
+-php artisan make:resource 
+eg: serve test
+-Transormer
+Note: transformer is the way we use resource to create a standard naming for our resource (json output) for consistency. This way even if a dev changes the name of a schema attribute, that new name will not affect the return resource.
+
 
 
 
