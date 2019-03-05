@@ -37,6 +37,9 @@ eg: serve test
 -Transormer
 Note: transformer is the way we use resource to create a standard naming for our resource (json output) for consistency. This way even if a dev changes the name of a schema attribute, that new name will not affect the return resource.
 
+-remove suffix collection from doc header ?
+-Laravel controller handles pagination 
+
 
 
 
