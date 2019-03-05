@@ -39,6 +39,7 @@ Note: transformer is the way we use resource to create a standard naming for our
 
 -remove suffix collection from doc header ?
 -Laravel controller handles pagination 
+-A controller can receive data to return data
 
 
 
